@@ -19,6 +19,7 @@ stylesheets[all][] = css/commerce.css
 stylesheets[all][] = css/sftools.css
 stylesheets[all][] = css/admin.css
 stylesheets[all][] = css/queries.css
+stylesheets[all][] = css/happyherps.css
 
 ;----------// Javascript files.
 ;scripts[] = js/respond.js
