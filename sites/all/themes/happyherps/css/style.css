@@ -1,6 +1,9 @@
+.site-slogan {
+    margin-top: 0.5em;
+}
+
 /* General Items */
 .align-left {
-    /*display: inline-block;*/
     float: left;
 }
 
