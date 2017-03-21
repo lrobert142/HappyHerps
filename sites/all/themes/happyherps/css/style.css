@@ -1,0 +1,178 @@
+/* General Items */
+.align-left {
+    /*display: inline-block;*/
+    float: left;
+}
+
+.align-middle {
+    text-align: center;
+}
+
+.align-right {
+    float: right;
+}
+
+.clear-float {
+	clear: both;
+}
+
+/* All products page */
+.product-odd, .product-even {
+    clear: both;
+    padding-top: 1.5em;
+}
+
+.product-title {
+    margin-bottom: 1em;
+}
+
+.product-image-link {
+    float: left;
+    width: 15em;
+}
+
+.product-details {
+    float: left;
+    width: 50%;
+}
+
+.product-view-container {
+    text-align: left;
+    margin-left: 1em;
+}
+
+.product-view-button {
+    background-color: #33809e;
+    color: #FFFFFF !important;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.75em;
+    font-weight: bold;
+}
+
+/* About Rept-omate Items */
+.feature-title-left {
+	display: inline-block;
+	width: 50%;
+    margin-left: 1em;
+}
+
+.feature-text-left {
+	display: inline-block;
+	width:50%;
+    margin-left: 1em;
+}
+
+.feature-title-right {
+	display: inline-block;
+	width: auto;
+	margin-left: 45%
+}
+
+.feature-text-right {
+	display: inline-block;
+    width: 45%;
+    margin-left: 25%;
+    text-align: right;
+}
+
+/* About Us items */
+.about-us-content {
+    float: left;
+    width: 70%;
+    margin-left: 10px;
+}
+
+/* Call to action items */
+.get-it-button {
+    background-color: #33809e;
+    color: #FFFFFF !important;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.75em;
+    font-weight: bold;
+}
+
+.get-it-now {
+	background:  #cfd2d6;
+	margin-top: 2em;
+	padding: 1em;
+}
+
+.get-it-now > hr {
+	background: #9599a0;
+}
+
+@media (max-width: 1150px) {
+	.feature-title-right {
+		display: inline-block;
+		width: 40%;
+		margin-left: 10%
+	}
+
+	.feature-text-right {
+		display: inline-block;
+    	width: 40%;
+    	margin-left: 10%;
+    	text-align: right;
+	}
+}
+
+@media (max-width: 700px) {
+	.feature-title-left {
+		width: auto;
+	}
+	.feature-text-left {
+		width: auto;
+	}
+	.feature-title-right {
+		width: auto;
+		margin-left: 0;
+	}
+	.feature-text-right {
+		width: auto;
+		margin-left: 0;
+		text-align: left;
+	}
+}
+
+/* Contact For Items */
+.contact-container {
+  padding: 10px;
+  background: #DDDDDD;
+}
+
+.contact-label {
+  display: inline-block;
+  width: 150px;
+}
+
+.contact-input {
+  display: inline-block;
+  width: 150px;
+}
+
+.required-field {
+  color: #FF0000;
+}
+
+.contact-textarea {
+  display: inline-block;
+  width: 300px;
+}
+
+.contact-submit {
+  color: #ffffff !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  line-height: 35px !important;
+  background: #013D7C !important;
+  padding: 0px 20px !important;
+  vertical-align: middle !important;
+  font-size: 18px !important;
+  min-width: 80px !important;
+  min-height: 35px !important;
+  font-family: Segoe UI !important;
+  border: 1px solid transparent !important;
+  margin-top: 5px !important;
+}
